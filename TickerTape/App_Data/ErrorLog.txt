@@ -1,0 +1,186 @@
+********** 10/13/2017 4:42:30 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 4:44:40 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 4:45:25 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.
+********** 10/13/2017 4:50:35 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 4:55:24 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.
+********** 10/13/2017 4:58:50 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 4:59:36 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 5:01:46 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 5:03:33 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.
+********** 10/13/2017 5:36:25 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 5:36:57 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 5:37:51 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.
+********** 10/13/2017 5:43:36 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 5:53:08 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Method Name: GetQuote
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 10/13/2017 6:16:49 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.
+********** 10/13/2017 6:18:45 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.
+********** 10/13/2017 6:20:18 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.
+********** 10/13/2017 6:20:48 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx
+Fault Details: Invalid Input
+Method Name: GetQuote
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 2017-10-16 1:58:27 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx/GetQuote
+Fault Details: Invalid Input
+Method Name: GetQuote
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 2017-10-16 1:58:32 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx/GetQuote
+Fault Details: Invalid Input
+Method Name: GetQuote
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 2017-10-16 1:59:08 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx/GetQuote
+Fault Details: Invalid Input
+Method Name: GetQuote
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 2017-10-16 1:59:17 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60478/Stocks.asmx/GetQuote
+Fault Details: Invalid Input
+Method Name: GetQuote
+Parameter Name: tickerSymbol
+Fault Type: input
+Fault Explanation: Your Ticker symbol format is wrong, Valid symbols only contain upper-case, '.'s, and '^'s characters 
+ 
+********** 2017-10-16 6:07:04 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.
+********** 2017-10-16 6:09:01 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Server
+SOAP Actor that threw Exception: 
+Fault Details: Server was unable to process request. ---> Input string was not in a correct format.

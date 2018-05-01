@@ -1,0 +1,14 @@
+D:\Repo\A3\Service Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Repo\A3\Service Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Repo\A3\Service Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Repo\A3\Service Unit Tests\bin\Debug\Service Unit Tests.dll.config
+D:\Repo\A3\Service Unit Tests\bin\Debug\Service Unit Tests.dll
+D:\Repo\A3\Service Unit Tests\bin\Debug\Service Unit Tests.pdb
+D:\Repo\A3\Service Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Repo\A3\Service Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Repo\A3\Service Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Repo\A3\Service Unit Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Repo\A3\Service Unit Tests\obj\Debug\Service Unit Tests.csprojResolveAssemblyReference.cache
+D:\Repo\A3\Service Unit Tests\obj\Debug\Service Unit Tests.csproj.CoreCompileInputs.cache
+D:\Repo\A3\Service Unit Tests\obj\Debug\Service Unit Tests.dll
+D:\Repo\A3\Service Unit Tests\obj\Debug\Service Unit Tests.pdb

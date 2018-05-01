@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost/LoanPayment/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://localhost/LoanPayment/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/LoanPayment/">
+      <s:element name="LoanPayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="principle" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="rate" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="payments" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoanPaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoanPaymentResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoanPaymentSoapIn">
+    <wsdl:part name="parameters" element="tns:LoanPayment" />
+  </wsdl:message>
+  <wsdl:message name="LoanPaymentSoapOut">
+    <wsdl:part name="parameters" element="tns:LoanPaymentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LoansSoap">
+    <wsdl:operation name="LoanPayment">
+      <wsdl:input message="tns:LoanPaymentSoapIn" />
+      <wsdl:output message="tns:LoanPaymentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LoansSoap" type="tns:LoansSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoanPayment">
+      <soap:operation soapAction="http://localhost/LoanPayment/LoanPayment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="LoansSoap12" type="tns:LoansSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoanPayment">
+      <soap12:operation soapAction="http://localhost/LoanPayment/LoanPayment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Loans">
+    <wsdl:port name="LoansSoap" binding="tns:LoansSoap">
+      <soap:address location="http://localhost:60274/Loans.asmx" />
+    </wsdl:port>
+    <wsdl:port name="LoansSoap12" binding="tns:LoansSoap12">
+      <soap12:address location="http://localhost:60274/Loans.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

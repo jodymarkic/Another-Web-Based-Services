@@ -1,0 +1,64 @@
+********** 2017-10-16 12:46:51 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60274/Loans.asmx/LoanPayment
+Fault Details: Invalid Input
+Parameter Name: incoming
+Fault Type: input
+Fault Explanation: Only accepts numbers in the incoming string.
+********** 2017-10-16 12:51:23 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60274/Loans.asmx/LoanPayment
+Fault Details: Invalid Input
+Parameter Name: incoming
+Fault Type: input
+Fault Explanation: Only accepts positive numbers.
+********** 2017-10-16 12:53:53 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60274/Loans.asmx/LoanPayment
+Fault Details: Invalid Input
+Parameter Name: Payments
+Fault Type: input
+Fault Explanation: Only accepts positive numbers.
+********** 2017-10-16 5:52:58 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60274/Loans.asmx
+Fault Details: Invalid Input
+Parameter Name: Principle
+Fault Type: input
+Fault Explanation: Only accepts positive numbers.
+********** 2017-10-16 6:03:27 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60274/Loans.asmx
+Fault Details: Invalid Input
+Parameter Name: Principle
+Fault Type: input
+Fault Explanation: Only accepts positive numbers.
+********** 2017-10-16 6:04:56 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60274/Loans.asmx
+Fault Details: Invalid Input
+Parameter Name: Principle
+Fault Type: input
+Fault Explanation: Only accepts positive numbers.
+********** 2017-10-16 6:07:03 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60274/Loans.asmx
+Fault Details: Invalid Input
+Parameter Name: Principle
+Fault Type: input
+Fault Explanation: Only accepts positive numbers.
+********** 2017-10-16 6:09:01 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60274/Loans.asmx
+Fault Details: Invalid Input
+Parameter Name: Principle
+Fault Type: input
+Fault Explanation: Only accepts positive numbers.

@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TextService(1)", "TextService\", "{77CA69C2-FF1E-4117-9E85-3A6AF54EAE3C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60471"
+		Debug.AspNetCompiler.PhysicalPath = "TextService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60471\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60471"
+		Release.AspNetCompiler.PhysicalPath = "TextService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60471\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60471"
+		SlnRelativePath = "TextService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TickerTape", "TickerTape\", "{FC40ED8C-BAC9-4FC0-AF1A-B77A99805899}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60478"
+		Debug.AspNetCompiler.PhysicalPath = "TickerTape\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60478\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60478"
+		Release.AspNetCompiler.PhysicalPath = "TickerTape\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60478\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60478"
+		SlnRelativePath = "TickerTape\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LoanService", "LoanService\", "{245AF0B2-64B2-4FFF-9AF3-54ECC2D7D043}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60274"
+		Debug.AspNetCompiler.PhysicalPath = "LoanService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60274\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60274"
+		Release.AspNetCompiler.PhysicalPath = "LoanService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60274\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60274"
+		SlnRelativePath = "LoanService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Unit Tests", "Service Unit Tests\Service Unit Tests.csproj", "{B5E50EC3-91CA-406A-8A69-E60C5689E23C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FC40ED8C-BAC9-4FC0-AF1A-B77A99805899} = {FC40ED8C-BAC9-4FC0-AF1A-B77A99805899}
+		{245AF0B2-64B2-4FFF-9AF3-54ECC2D7D043} = {245AF0B2-64B2-4FFF-9AF3-54ECC2D7D043}
+		{77CA69C2-FF1E-4117-9E85-3A6AF54EAE3C} = {77CA69C2-FF1E-4117-9E85-3A6AF54EAE3C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77CA69C2-FF1E-4117-9E85-3A6AF54EAE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CA69C2-FF1E-4117-9E85-3A6AF54EAE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CA69C2-FF1E-4117-9E85-3A6AF54EAE3C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CA69C2-FF1E-4117-9E85-3A6AF54EAE3C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FC40ED8C-BAC9-4FC0-AF1A-B77A99805899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC40ED8C-BAC9-4FC0-AF1A-B77A99805899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC40ED8C-BAC9-4FC0-AF1A-B77A99805899}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC40ED8C-BAC9-4FC0-AF1A-B77A99805899}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{245AF0B2-64B2-4FFF-9AF3-54ECC2D7D043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245AF0B2-64B2-4FFF-9AF3-54ECC2D7D043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245AF0B2-64B2-4FFF-9AF3-54ECC2D7D043}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{245AF0B2-64B2-4FFF-9AF3-54ECC2D7D043}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B5E50EC3-91CA-406A-8A69-E60C5689E23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E50EC3-91CA-406A-8A69-E60C5689E23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E50EC3-91CA-406A-8A69-E60C5689E23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E50EC3-91CA-406A-8A69-E60C5689E23C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C047C7A1-83FB-42A2-97B6-2D078AF027B6}
+	EndGlobalSection
+EndGlobal

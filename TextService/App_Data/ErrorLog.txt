@@ -1,0 +1,40 @@
+********** 10/13/2017 3:53:19 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60471/Case.asmx
+Fault Details: Invalid Input
+Parameter Name: incoming
+Fault Type: input
+Fault Explanation: Only accepts letters in the incoming string
+********** 10/13/2017 6:21:08 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60471/Case.asmx
+Fault Details: Invalid Input
+Parameter Name: incoming
+Fault Type: input
+Fault Explanation: Only accepts letters in the incoming string
+********** 2017-10-16 4:53:41 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60471/Case.asmx
+Fault Details: Invalid Input
+Parameter Name: flag
+Fault Type: input
+Fault Explanation: Only accepts numbers 1 & 2; One: converts to Upper-case; Two: converts to Lower-case
+********** 2017-10-16 4:54:11 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60471/Case.asmx
+Fault Details: Invalid Input
+Parameter Name: flag
+Fault Type: input
+Fault Explanation: Only accepts numbers 1 & 2; One: converts to Upper-case; Two: converts to Lower-case
+********** 2017-10-16 6:09:01 PM **********
+Fault Code Namespace: http://schemas.xmlsoap.org/soap/envelope/
+Fault Code Name: Client
+SOAP Actor that threw Exception: http://localhost:60471/Case.asmx
+Fault Details: Invalid Input
+Parameter Name: incoming
+Fault Type: input
+Fault Explanation: Only accepts letters in the incoming string
